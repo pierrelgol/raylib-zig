@@ -4,8 +4,7 @@
     .fingerprint = 0xc4cfa8c610114f28,
     .dependencies = .{
         .raylib = .{
-            .url = "git+https://github.com/raysan5/raylib#9f831428e6be0eba8762a154e3e9139d4f071970",
-            .hash = "raylib-5.6.0-dev-whq8uL592gQ782dF95oci4S61qrNVYK3MhpUpNwFgZ1J",
+            .path = "third_party/raylib",
         },
         .raygui = .{
             .url = "git+https://github.com/raysan5/raygui#9cdfec460b43a17264af3c181c46f62bf107ac17",
@@ -20,7 +19,7 @@
             .hash = "zemscripten-0.2.0-dev-sRlDqFJSAAB8hgnRt5DDMKP3zLlDtMnUDwYRJVCa5lGY",
         },
     },
-    .minimum_zig_version = "0.15.1",
+    .minimum_zig_version = "0.16.0",
     .paths = .{
         "build.zig",
         "build.zig.zon",
@@ -33,5 +32,6 @@
         "lib/rlgl-ext.zig",
         "lib/raygui.zig",
         "lib/raygui-ext.zig",
+        "third_party/raylib",
     },
 }
